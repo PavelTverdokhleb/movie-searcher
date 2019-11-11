@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import Header from '../../components/Header/Header';
-import Main from '../../components/Main/Main';
+import './Header.scss';
 
-class Container extends Component {
+
+class Header extends Component {
     render() {
         return (
-            <>
-                <Header/>
-                <Main/>
-            </>
+            <header>
+                header
+            </header>
         );
     }
 }
@@ -27,4 +26,4 @@ const mapDispatchToProps = {
 export default connect(
     mapStateToProps,
     mapDispatchToProps
-)(Container);
+)(Header);

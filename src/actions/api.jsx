@@ -20,10 +20,10 @@ export const axiosOptions = {
     interceptors: {
         request: [
             (action, config) => {
-                if (localStorage.token) {
-                    let token = localStorage.token;
-                    config.headers['Authorization'] = 'Token ' + token;
-                }
+                // if (localStorage.token) {
+                //     let token = localStorage.token;
+                //     config.headers['Authorization'] = 'Token ' + token;
+                // }
                 return config;
             }
         ]

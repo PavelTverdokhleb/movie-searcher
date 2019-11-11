@@ -1,5 +1,4 @@
-//authentication actions
 
-export const GET_DATA = 'GET_DATA';
-export const GET_DATA_SUCCESS = 'GET_DATA_SUCCESS';
-export const GET_DATA_FAIL = 'GET_DATA_FAIL';
+export const GET_MOVIES = 'GET_MOVIES';
+export const GET_MOVIES_SUCCESS = 'GET_MOVIES_SUCCESS';
+export const GET_MOVIES_FAIL = 'GET_MOVIES_FAIL';
