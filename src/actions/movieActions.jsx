@@ -6,7 +6,7 @@ export const getMovies = () => ({
     payload: {
         client: 'default',
         request: {
-            url: `/?apikey=${apiKey}&t=Star+wars`,
+            url: `/?apikey=${apiKey}&s=Star&plot=full`,
             method: 'get'
         }
     }

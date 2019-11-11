@@ -4,9 +4,9 @@ import './Main.scss';
 
 function Main() {
     return (
-        <main>
+        <section>
             <Movies/>
-        </main>
+        </section>
     );
 }
 
